@@ -1,11 +1,12 @@
-# cplus-line-notify  
+# cplus-line-notify (beta版)   
 
 <img src="https://user-images.githubusercontent.com/16556629/65378387-8995c100-dcf2-11e9-9aee-4eccc10600c1.JPG" width=300px>
 
   
 ## About  
- Cplusの情報とmanabaの情報をLINEに通知するBotです (中央大学の学生向け)  
- デフォルトでは月～土曜日にmanabaの通知 (課題・コースニュース・掲示板) ・日曜日にCplus (授業変更情報) の通知を行います    
+Cplusの情報とmanabaの情報をLINEに通知するBotです (中央大学の学生向け)  
+デフォルトでは月～土曜日にmanabaの通知 (課題・コースニュース・掲示板) ・日曜日にCplus (授業変更情報) の通知を行います   
+まだ動作テストが十分でないbeta版なので安定的に動作するかは不明  
 導入方法は下記を参照    
   
   
