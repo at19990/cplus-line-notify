@@ -1,5 +1,6 @@
 # cplus-line-notify
-Cplusの授業変更情報をLINEに通知するbot
+中央大学の学生向け
+Cplusの授業変更情報とmanabaの通知をLINEに通知するbot
 
 ## 導入方法
 
