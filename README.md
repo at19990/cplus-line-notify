@@ -1,4 +1,7 @@
 # cplus-line-notify  
+
+<img src="https://user-images.githubusercontent.com/16556629/65378387-8995c100-dcf2-11e9-9aee-4eccc10600c1.JPG" width=300px>
+
   
 ## About  
  Cplusの情報とmanabaの情報をLINEに通知するBotです (中央大学の学生向け)  
