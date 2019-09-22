@@ -90,7 +90,7 @@ def create_message():
             else:
                 message += "・{0}/{1}【{2}】 <{3}> {4} (変更後: {5})\n".format(df.loc[i, "月"], df.loc[i, "日"], df.loc[i, "区分"], df.loc[i, "曜日・時限"], df.loc[i, "科目名"], df.loc[i, "変更後教室"])
 
-    message += "\nhttps://cplus.chuo-u.ac.jp"
+    message += "\n\nhttps://cplus.chuo-u.ac.jp"
 
     return message
 
