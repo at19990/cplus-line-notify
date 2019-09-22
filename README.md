@@ -1,11 +1,11 @@
 # cplus-line-notify (beta版)   
 
-<img src="https://user-images.githubusercontent.com/16556629/65378387-8995c100-dcf2-11e9-9aee-4eccc10600c1.JPG" width=300px>
 
+<img src="https://user-images.githubusercontent.com/16556629/65393388-e2c92780-ddba-11e9-8253-c98322df8785.JPG" height=400px>　　　<img src="https://user-images.githubusercontent.com/16556629/65393386-e066cd80-ddba-11e9-8a0a-116c8fc5cecd.JPG" height=400px>
 
 ## About  
 Cplus・manaba・図書館の情報をLINEに通知するBotです (中央大学の学生向け)  
-デフォルトでは平日にmanabaの通知 (課題・コースニュース・掲示板) ・土曜日にmanabaの通知 (貸出状況・予約状況)・日曜日にCplus (授業変更情報) の通知を行います   
+デフォルトでは平日にmanabaの通知 (課題・コースニュース・掲示板) ・土曜日に図書館の通知 (貸出状況・予約状況)・日曜日にCplus (授業変更情報) の通知を行います   
 もともと自分用に作ったもので、まだテストも十分でないbeta版なので安定的に動作するかは不明  
 導入方法は下記を参照    
 
@@ -107,7 +107,7 @@ heroku config:set ENV_CHUO_SSO_USER_ID="<ユーザーID>" --app "<アプリ名>"
 # 中央大学統合認証のパスワード  
 heroku config:set ENV_CHUO_SSO_PASSWORD="<パスワード>" --app "<アプリ名>"  
 
-# 図書館システムのパスワード  
+# CHOIS(図書館システム)のパスワード  
 heroku config:set ENV_CHUO_LIB_PASSWORD="<パスワード>" --app "<アプリ名>"
 
 # LINE Notify のトークン (事前準備の際に控えたもの)
