@@ -106,7 +106,7 @@ heroku config:set ENV_CHUO_SSO_USER_ID="<ユーザーID>" --app "<アプリ名>"
 # 中央大学統合認証のパスワード  
 heroku config:set ENV_CHUO_SSO_PASSWORD="<パスワード>" --app "<アプリ名>"  
 
-# 図書館システムのパスワード  
+# CHOIS(図書館システム)のパスワード  
 heroku config:set ENV_CHUO_LIB_PASSWORD="<パスワード>" --app "<アプリ名>"
 
 # LINE Notify のトークン (事前準備の際に控えたもの)
