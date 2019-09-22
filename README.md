@@ -132,7 +132,7 @@ heroku run python main.py
 
 ### 定期実行ジョブの追加  
   
- 以下の記事を参考に、1日に1回定期実行する設定を行ってください  
+ 以下の記事を参考に、1日に1回定期実行するための設定を行ってください  
    
  
 [Herokuでお天気Pythonの定期実行](https://qiita.com/seigo-pon/items/ca9951dac0b7fa29cce0#%E5%AE%9A%E6%9C%9F%E5%AE%9F%E8%A1%8C%E8%A8%AD%E5%AE%9A)
