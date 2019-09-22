@@ -155,7 +155,7 @@ def send_line(message):
 
 def main():
 
-    dt_now = datetime.datetime.now()
+    dt_now = datetime.datetime.now() + datetime.timedelta(hours=9)
     html_source = login_wd(dt_now)
     wr_csv(html_source)
     message = create_message(dt_now)

@@ -75,7 +75,7 @@ def create_message():
     df["日"] = df["日付"].dt.day
 
     # 現在時刻の取得・メッセージの宣言
-    dt_now = datetime.datetime.now()
+    dt_now = datetime.datetime.now() + datetime.timedelta(hours=9)
     dt_now = str(dt_now.month) + "/" + str(dt_now.day)
     message = "\nCplusの情報 (" + dt_now + " 現在)\n\n"
 

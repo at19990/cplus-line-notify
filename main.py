@@ -2,7 +2,10 @@ import datetime
 import subprocess
 
 def main():
-    weekday = datetime.date.today().weekday()
+
+    dt_now = datetime.datetime.today() + datetime.timedelta(hours=9)
+
+    weekday = dt_now.weekday()
 
     if weekday <= 4:  # 平日に実行
         subprocess.call(["python","manaba_scraping.py"])
