@@ -1,7 +1,6 @@
 # cplus-line-notify (beta版)   
 
-<img src="https://user-images.githubusercontent.com/16556629/65378387-8995c100-dcf2-11e9-9aee-4eccc10600c1.JPG" width=300px>
-
+<img src="https://user-images.githubusercontent.com/16556629/65378387-8995c100-dcf2-11e9-9aee-4eccc10600c1.JPG" height=400px>　　　<!--<img src="https://user-images.githubusercontent.com/16556629/65393158-3be38c00-ddb8-11e9-8794-5c6cceb37f78.JPG" height=400px>-->
 
 ## About  
 Cplus・manaba・図書館の情報をLINEに通知するBotです (中央大学の学生向け)  
