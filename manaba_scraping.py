@@ -8,6 +8,7 @@ import os
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 from dateutil.relativedelta import relativedelta
+import re
 
 
 # manaba にブラウザからログインして情報取得
@@ -87,19 +88,19 @@ def create_message(dt_now):
         #try:
             if df.loc[i, 7] != "/icon-coursedeadline-off.png": # 課題
                 if df.loc[i, 0] != "infoss情報倫理": # infossは授業科目ではないが課題が表示され続けるため除外
-                    course_assignment += "・" + df.loc[i, 0] + "\n"
+                    course_assignment += "・" + re.sub(r" +", " ", df.loc[i, 0]) + "\n"
         #except KeyError:
             #pass
 
         #try:
             if df.loc[i, 6] == "/icon_coursenews_on.png": # コースニュース
-                course_news += "・" + df.loc[i, 0] + "\n"
+                course_news += "・" + re.sub(r" +", " ", df.loc[i, 0]) + "\n"
         #except KeyError:
             #pass
 
         #try:
             if df.loc[i, 9] == "/icon_coursethread_on.png": # 掲示板
-                course_thread += "・" + df.loc[i, 0] + "\n"
+                course_thread += "・" + re.sub(r" +", " ", df.loc[i, 0]) + "\n"
         #except KeyError:
             #pass
 
