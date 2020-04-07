@@ -3,6 +3,10 @@
 
 <img src="https://user-images.githubusercontent.com/16556629/65393388-e2c92780-ddba-11e9-8253-c98322df8785.JPG" height=400px>　　　<img src="https://user-images.githubusercontent.com/16556629/65393386-e066cd80-ddba-11e9-8a0a-116c8fc5cecd.JPG" height=400px>
 
+## 改修中
+
+__図書館システムが変わったため、近日中に対応します__
+
 ## About  
 Cplus・manaba・CHOIS (図書館)の情報をLINEに通知するBotです (中央大学の学生向け)  
 デフォルトでは平日にmanabaの通知 (課題の未提出・コースニュースの未読・掲示板の未読) ・土曜日に図書館の通知 (貸出状況・予約状況)・日曜日にCplus (授業変更情報) の通知を行います   
