@@ -14,7 +14,7 @@ import re
 # manaba にブラウザからログインして情報取得
 def login_wd(dt_now):
     # 現在の年度を取得
-    fiscal_year = dt_now - relativedelta(months=1)
+    fiscal_year = dt_now - relativedelta(months=4)
     fiscal_year = str(fiscal_year.year)
 
     USER = os.environ["ENV_CHUO_SSO_USER_ID"]
