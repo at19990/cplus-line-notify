@@ -80,7 +80,7 @@ def create_message(dt_now, html_source):
     # 日付テキストの生成
     dt_now = str(dt_now.month) + "/" + str(dt_now.day)
 
-    message = "\n図書館の情報 ({0} 現在)\n\n{1}\nhttp://www.library.chuo-u.ac.jp/opac/".format(dt_now, lend_cond)
+    message = "\n図書館の情報 ({0} 現在)\n\n{1}\nhttps://opac.library.chuo-u.ac.jp/".format(dt_now, lend_cond)
 
     return message
 
