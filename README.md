@@ -1,4 +1,4 @@
-# cplus-line-notify (beta版)   
+# cplus-line-notify   
 
 
 <img src="https://user-images.githubusercontent.com/16556629/65393388-e2c92780-ddba-11e9-8253-c98322df8785.JPG" height=400px>　　　<img src="https://user-images.githubusercontent.com/16556629/65393386-e066cd80-ddba-11e9-8a0a-116c8fc5cecd.JPG" height=400px>
@@ -7,7 +7,7 @@
 ## About  
 Cplus・manaba・CHOIS (図書館)の情報をLINEに通知するBotです (中央大学の学生向け)  
 1日のうち決まった時間にmanabaの通知 (課題の未提出・コースニュースの未読・掲示板の未読)・図書館の通知 (貸出状況)・Cplus (授業変更情報) の通知をチェックし、内容に前日から変更があった場合にのみメッセージを送信します  
-(もともと自分用に作ったもので、beta版なので安定的に動作するかは不明な部分も…)  
+(もともと自分用に作ったものなので、安定的に動作するかは不明な部分もありますが…)  
 導入方法は下記を参照してください    
 
 ## Update  
