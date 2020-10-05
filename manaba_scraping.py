@@ -33,9 +33,7 @@ def login_wd(dt_now):
 
     # selenium でブラウザを操作して取得
     driver = webdriver.Chrome(options=opt, executable_path= CHROMEDRIVER_PATH )
-    driver.get("http://www2.chuo-u.ac.jp/com/manaba/")
-    driver.implicitly_wait(3)
-    driver.find_element_by_tag_name("area").click()
+    driver.get("https://room.chuo-u.ac.jp")
     driver.implicitly_wait(3)
     driver.find_element_by_id('username_input').send_keys(USER)
     driver.implicitly_wait(3)
